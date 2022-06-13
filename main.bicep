@@ -60,7 +60,7 @@ module azureAutomaton './modules//automation.bicep' = {
     AzSecPackRole: azureSecPack.role
     AzSecPackAcct: azureSecPack.account
     AzSecPackNS: azureSecPack.namespace
-    AzSecPackCert: azureSecPack.certificate
+    AzSecPackCert: azureSecPack.certificateSAN
     automationAccountName: randomString
     location: location
   }
