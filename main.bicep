@@ -8,7 +8,7 @@ param azureSecPack object = {
   role: 'MTPFITADDomainSvc'
   account: 'RoverAzSecPackGenevaLogAccnt1'
   nameSpace: 'MTPFITADDomainSvc'
-  certificateSAN: 'PPE.GENEVA.KEYVAULT.AZSECPACK.FIT-MTP.FME.MICROSOFT.COM'
+  certificateSAN: 'Type the SAN Here!'
 }
 
 param baseVirtualMachine object = {
