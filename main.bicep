@@ -15,7 +15,9 @@ param baseVirtualMachine object = {
   name: 'fit-lab-vm'
   nicName: 'fit-lab-vm'
   windowsOSVersion: '2022-datacenter'
-  Size: 'Standard_D3_v2'
+  //Size: 'Standard_D3_v2'
+  //For South east Asia
+  Size: 'Standard_DC8s_v3'
   Count: 1
 }
 
@@ -23,7 +25,9 @@ param hyperVirtualMachine object = {
   name: 'fit-lab-hv'
   nicName: 'fit-lab-host'
   windowsOSVersion: '2022-datacenter'
-  Size: 'Standard_D8s_v3'
+  //Size: 'Standard_D8s_v3'
+  //For South east Asia
+  Size: 'Standard_DC8s_v3'
   Count: 1
 }
 
